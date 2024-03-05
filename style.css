@@ -128,7 +128,7 @@ textarea:focus{
 .copiar {
     position: fixed;
     bottom: 150px; /* Ajusta la distancia desde la parte inferior según sea necesario */
-    right: 197px; /* Ajusta la distancia desde el lado derecho según sea necesario */
+     /* Ajusta la distancia desde el lado derecho según sea necesario */
 }  
 
 .informacion{
@@ -182,7 +182,7 @@ textarea:focus{
       right: 10px;
     }
     .informacion{
-      margin-top:  147%;
+      margin-top:  133%;
       margin-left: -18%;
       font-size: 35px;
       
@@ -198,4 +198,63 @@ textarea:focus{
     }
   }  
   
- 
+  @media screen and (min-width:481px) and (max-width:576px){
+    .text-area{
+      position: fixed;
+      width: 100%;
+      height: 30%;
+      right: 1px;
+      top: -15%;
+      
+    }
+    textarea::placeholder{
+      bottom: -150px;
+    }
+    .mensaje{
+      width: 100%;
+      height: 30%;
+      right: 1px;
+      top: 45%;
+    }
+    .botones{
+      top: -165px;
+      right: 300px;
+      
+    }
+    .btn-encriptar{
+      position: fixed;
+      width: 600px;
+      border-radius: 216px;
+      font-size: 30px;
+      margin-top: -80px;
+      right: 10px;
+      
+      
+    }
+    .btn-desencriptar{
+      position: fixed;
+      width: 600px;
+      border-radius: 216px;
+      font-size: 26px;
+      margin-top: 3px;
+      right: 10px;
+    }
+    .informacion{
+      margin-top:  100%;
+      margin-left: -18%;
+      font-size: 35px;
+      
+    }
+    .copiar{
+      bottom: 70px;
+      position: fixed;
+      width: 600px;
+      border-radius: 216px;
+      font-size: 26px;
+      margin-top: 3px;
+      right: 10px;
+    }
+   
+  }
+
+  
