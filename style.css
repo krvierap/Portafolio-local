@@ -6,7 +6,9 @@
  
 }
 body{
-   background-image: url('/Posibles imagenes/fondo.jpg');
+   background-image: url('Posibles_imagenes/fondo.jpg');
+   background-size: cover;
+   background-position: center
 }
 
 main{
